@@ -67,17 +67,20 @@
         </v-card-actions>
       </v-card>
     </v-flex>
+    <HelloWorld />
   </v-layout>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import HelloWorld from '~/components/HelloWorld.vue'
 
 export default {
   components: {
     Logo,
-    VuetifyLogo
+    VuetifyLogo,
+    HelloWorld
   }
 }
 </script>
