@@ -12,7 +12,8 @@ yarn create nuxt-app app
 rm -rf node_modules package-lock.json
 ```
 
-package.jsonのdependenciesからnuxtを削除
+package.jsonのdependenciesからnuxtを削除して、以下コマンドを実行
+(vue-property-decoratorは@Componentsデコレーター用)
 
 ```sh
 npm install -S nuxt-ts vue-property-decorator
