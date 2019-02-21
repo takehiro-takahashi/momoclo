@@ -1,6 +1,6 @@
-# momoclo
+# momoiro-clover-fun-site
 
-> My impeccable Nuxt.js project
+> My rad Nuxt.js project
 
 ## Build Setup
 
