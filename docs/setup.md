@@ -8,11 +8,14 @@ yarn create nuxt-app app
 
 ## TypeScript setting
 
+[参考URL](https://qiita.com/chieeeeno/items/13c3a713f992473bdd88)
+
 ```sh
 rm -rf node_modules package-lock.json
 ```
 
 package.jsonのdependenciesからnuxtを削除して、以下コマンドを実行
+
 (vue-property-decoratorは@Componentsデコレーター用)
 
 ```sh
