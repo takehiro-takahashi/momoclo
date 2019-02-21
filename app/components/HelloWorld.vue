@@ -1,5 +1,6 @@
-<template>
-    <div id="hello">{{ hello }}</div>
+<template lang="pug">
+    #hello
+        p {{ hello }}
 </template>
 
 <script lang="ts">
@@ -11,3 +12,7 @@ export default class HelloWorld extends Vue {
 }
 </script>
 
+<style lang="stylus" scoped>
+    #hello
+        color: blue
+</style>
