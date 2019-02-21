@@ -1,4 +1,5 @@
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+const colors = require('vuetify/es5/util/colors')
 const pkg = require('./package')
 
 module.exports = {
@@ -37,7 +38,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['@/plugins/vuetify'],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
@@ -45,8 +46,21 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/vuetify'
   ],
+
+  vuetify: {
+    theme: {
+      primary: colors.blue.darken2,
+      accent: colors.grey.darken3,
+      secondary: colors.amber.darken3,
+      info: colors.teal.lighten1,
+      warning: colors.amber.base,
+      error: colors.deepOrange.accent4,
+      success: colors.green.accent3
+    }
+  },
   /*
   ** Axios module configuration
   */

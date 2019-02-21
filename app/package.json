@@ -20,8 +20,7 @@
     "nuxt-ts": "^2.4.3",
     "test-exclude": "^5.1.0",
     "vue-property-decorator": "^7.3.0",
-    "vuetify": "^1.5.2",
-    "vuetify-loader": "^1.2.1"
+    "@nuxtjs/vuetify": "latest"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
